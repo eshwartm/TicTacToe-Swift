@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706B80161952BB700068F04C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B80151952BB700068F04C /* AppDelegate.swift */; };
+		706B80181952BB700068F04C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B80171952BB700068F04C /* ViewController.swift */; };
+		706B801B1952BB700068F04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706B80191952BB700068F04C /* Main.storyboard */; };
+		706B801D1952BB700068F04C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706B801C1952BB700068F04C /* Images.xcassets */; };
+		706B80291952BB700068F04C /* TicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B80281952BB700068F04C /* TicTests.swift */; };
+		706B80331952BE500068F04C /* TrackBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B80321952BE500068F04C /* TrackBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		706B80231952BB700068F04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706B80081952BB700068F04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706B800F1952BB700068F04C;
+			remoteInfo = Tic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		706B80101952BB700068F04C /* Tic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706B80141952BB700068F04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706B80151952BB700068F04C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		706B80171952BB700068F04C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706B801A1952BB700068F04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706B801C1952BB700068F04C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		706B80221952BB700068F04C /* TicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706B80271952BB700068F04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706B80281952BB700068F04C /* TicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTests.swift; sourceTree = "<group>"; };
+		706B80321952BE500068F04C /* TrackBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackBoard.swift; sourceTree = "<group>"; };
+		706B80341952C16E0068F04C /* SomePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SomePlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706B800D1952BB700068F04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706B801F1952BB700068F04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706B80071952BB700068F04C = {
+			isa = PBXGroup;
+			children = (
+				706B80121952BB700068F04C /* Tic */,
+				706B80251952BB700068F04C /* TicTests */,
+				706B80111952BB700068F04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706B80111952BB700068F04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706B80101952BB700068F04C /* Tic.app */,
+				706B80221952BB700068F04C /* TicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706B80121952BB700068F04C /* Tic */ = {
+			isa = PBXGroup;
+			children = (
+				706B80151952BB700068F04C /* AppDelegate.swift */,
+				706B80171952BB700068F04C /* ViewController.swift */,
+				706B80321952BE500068F04C /* TrackBoard.swift */,
+				706B80341952C16E0068F04C /* SomePlayground.playground */,
+				706B80191952BB700068F04C /* Main.storyboard */,
+				706B801C1952BB700068F04C /* Images.xcassets */,
+				706B80131952BB700068F04C /* Supporting Files */,
+			);
+			path = Tic;
+			sourceTree = "<group>";
+		};
+		706B80131952BB700068F04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				706B80141952BB700068F04C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		706B80251952BB700068F04C /* TicTests */ = {
+			isa = PBXGroup;
+			children = (
+				706B80281952BB700068F04C /* TicTests.swift */,
+				706B80261952BB700068F04C /* Supporting Files */,
+			);
+			path = TicTests;
+			sourceTree = "<group>";
+		};
+		706B80261952BB700068F04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				706B80271952BB700068F04C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706B800F1952BB700068F04C /* Tic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706B802C1952BB700068F04C /* Build configuration list for PBXNativeTarget "Tic" */;
+			buildPhases = (
+				706B800C1952BB700068F04C /* Sources */,
+				706B800D1952BB700068F04C /* Frameworks */,
+				706B800E1952BB700068F04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tic;
+			productName = Tic;
+			productReference = 706B80101952BB700068F04C /* Tic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		706B80211952BB700068F04C /* TicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706B802F1952BB700068F04C /* Build configuration list for PBXNativeTarget "TicTests" */;
+			buildPhases = (
+				706B801E1952BB700068F04C /* Sources */,
+				706B801F1952BB700068F04C /* Frameworks */,
+				706B80201952BB700068F04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706B80241952BB700068F04C /* PBXTargetDependency */,
+			);
+			name = TicTests;
+			productName = TicTests;
+			productReference = 706B80221952BB700068F04C /* TicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706B80081952BB700068F04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Eshwar Ramesh";
+				TargetAttributes = {
+					706B800F1952BB700068F04C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					706B80211952BB700068F04C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 706B800F1952BB700068F04C;
+					};
+				};
+			};
+			buildConfigurationList = 706B800B1952BB700068F04C /* Build configuration list for PBXProject "Tic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706B80071952BB700068F04C;
+			productRefGroup = 706B80111952BB700068F04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706B800F1952BB700068F04C /* Tic */,
+				706B80211952BB700068F04C /* TicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706B800E1952BB700068F04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706B801B1952BB700068F04C /* Main.storyboard in Resources */,
+				706B801D1952BB700068F04C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706B80201952BB700068F04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706B800C1952BB700068F04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706B80331952BE500068F04C /* TrackBoard.swift in Sources */,
+				706B80181952BB700068F04C /* ViewController.swift in Sources */,
+				706B80161952BB700068F04C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706B801E1952BB700068F04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706B80291952BB700068F04C /* TicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		706B80241952BB700068F04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706B800F1952BB700068F04C /* Tic */;
+			targetProxy = 706B80231952BB700068F04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		706B80191952BB700068F04C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706B801A1952BB700068F04C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		706B802A1952BB700068F04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706B802B1952BB700068F04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706B802D1952BB700068F04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706B802E1952BB700068F04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		706B80301952BB700068F04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tic.app/Tic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		706B80311952BB700068F04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tic.app/Tic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706B800B1952BB700068F04C /* Build configuration list for PBXProject "Tic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706B802A1952BB700068F04C /* Debug */,
+				706B802B1952BB700068F04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706B802C1952BB700068F04C /* Build configuration list for PBXNativeTarget "Tic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706B802D1952BB700068F04C /* Debug */,
+				706B802E1952BB700068F04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		706B802F1952BB700068F04C /* Build configuration list for PBXNativeTarget "TicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706B80301952BB700068F04C /* Debug */,
+				706B80311952BB700068F04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706B80081952BB700068F04C /* Project object */;
+}
