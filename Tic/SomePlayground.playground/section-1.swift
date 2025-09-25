@@ -2,7 +2,7 @@
 
 import Cocoa
 
-var str = "Hello, playground"
+var str = "Hello, playground "
 
 var numColumns = 3
 var numRows = 3
